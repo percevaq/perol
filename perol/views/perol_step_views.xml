@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <record id="perol_step_view_form" model="ir.ui.view">
+        <field name="model">perol.step</field>
+        <field name="arch" type="xml">
+            <form string="Step">
+                <field name="perol_id" invisible="True"/>
+                <sheet>
+                    <group>
+                        <field name="name"/>
+                    </group>
+                    <group>
+                        <group>
+                            <field name="sequence"/>
+                        </group>
+                        <group>
+                            <field name="step_type"/>
+                            <field name="manufacturing_hours" widget="float_time"/>
+                        </group>
+                        <group>
+                            <field name="ingredient_ids" widget="many2many_tags" options="{'no_create_edit': True}"
+                                   domain="[('perol_id', '=', perol_id)]"
+                                   context="{'default_perol_id': perol_id}"/>
+                        </group>
+                    </group>
+                    <group string="Description"/>
+                    <field name="description"/>
+                </sheet>
+            </form>
+        </field>
+    </record>
+</odoo>

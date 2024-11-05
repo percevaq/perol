@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <record id="perol_category_view_form" model="ir.ui.view">
+        <field name="model">perol.category</field>
+        <field name="arch" type="xml">
+            <form string="Perol category">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="name"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+    <record id="perol_category_view_tree" model="ir.ui.view">
+        <field name="model">perol.category</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="display_name"/>
+            </tree>
+        </field>
+    </record>
+    <record id="perol_category_action" model="ir.actions.act_window">
+        <field name="name">Category</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">perol.category</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+    <menuitem id="perol_technical_perol_menu"
+              name="Perol"
+              parent="perol_technical_menu"
+              sequence="10"
+              groups="perol.group_perol_manager"/>
+    <menuitem id="perol_category_view_menu"
+              name="Categories" parent="perol.perol_technical_perol_menu"
+              action="perol_category_action" sequence="17"/>
+</odoo>

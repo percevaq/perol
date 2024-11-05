@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="import_perol_media_view_form" model="ir.ui.view">
+        <field name="model">import.perol.media</field>
+        <field name="arch" type="xml">
+            <form string="Import perol media">
+                <head>
+                    <field name="state" widget="statusbar" statusbar_visible="draft,done"/>
+                </head>
+                <div>
+                    <p class="tip_title">It will not any operation be done in the database
+                        for the next step
+                    </p>
+                </div>
+                <field name="file_name" invisible="True"/>
+                <field name="perol_id" invisible="True"/>
+                <div>
+                    <label for="file"/>
+                    <field name="file" filename="file_name" string="Select the zip file to import:"/>
+                </div>
+                <footer>
+                    <button class="oe_link" special="cancel" string="Cancel"/>
+                    <button name="button_import" class="oe_highlight" type="object" string="Import"/>
+                </footer>
+            </form>
+        </field>
+    </record>
+    <record id="import_perol_media_action" model="ir.actions.act_window">
+        <field name="name">Import perol media</field>
+        <field name="res_model">import.perol.media</field>
+        <field name="view_mode">form</field>
+        <field name="view_id" ref="perol.import_perol_media_view_form"/>
+        <field name="target">new</field>
+        <field name="binding_model_id" ref="model_perol"/>
+        <field name="binding_view_types">form</field>
+    </record>
+</odoo>

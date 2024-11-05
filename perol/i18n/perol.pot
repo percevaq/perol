@@ -1,0 +1,1261 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* perol
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-01 22:36+0000\n"
+"PO-Revision-Date: 2024-11-01 22:36+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: perol
+#: model:ir.model.fields,field_description:perol.field_product_product__is_food
+#: model:ir.model.fields,field_description:perol.field_product_template__is_food
+msgid " Is food"
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields,field_description:perol.field_perol_category__perol_count
+msgid "# Perol"
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields,field_description:perol.field_perol__difficulty_gauge
+msgid "% difficulty"
+msgstr ""
+
+#. module: perol
+#: model_terms:ir.ui.view,arch_db:perol.perol_media_view_form
+msgid "<span>Video Preview</span>"
+msgstr ""
+
+#. module: perol
+#: model_terms:ir.ui.view,arch_db:perol.perol_media_view_kanban
+msgid "Acceptable file size"
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields,field_description:perol.field_perol__access_warning
+msgid "Access warning"
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields,field_description:perol.field_perol__message_needaction
+msgid "Action Needed"
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields,field_description:perol.field_perol__active
+msgid "Active"
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields,field_description:perol.field_perol__activity_ids
+msgid "Activities"
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields,field_description:perol.field_perol__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields,field_description:perol.field_perol__activity_state
+msgid "Activity State"
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields,field_description:perol.field_perol__activity_type_icon
+msgid "Activity Type Icon"
+msgstr ""
+
+#. module: perol
+#: model_terms:ir.actions.act_window,help:perol.perol_media_tag_action
+msgid "Add tags to your media to help your users browse your perol web pages."
+msgstr ""
+
+#. module: perol
+#: model:res.groups,name:perol.group_perol_manager
+msgid "Administrator"
+msgstr ""
+
+#. module: perol
+#: model:ir.ui.menu,name:perol.perol_allergen_view_menu
+#: model_terms:ir.ui.view,arch_db:perol.product_template_allergen_view_form
+#: model_terms:ir.ui.view,arch_db:perol.product_template_allergen_view_kanban
+msgid "Allergen"
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields,field_description:perol.field_perol__food_allergen_ids
+#: model:ir.model.fields,field_description:perol.field_product_product__food_allergen_ids
+#: model:ir.model.fields,field_description:perol.field_product_template__food_allergen_ids
+msgid "Allergens"
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields,field_description:perol.field_perol__message_attachment_count
+msgid "Attachment Count"
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields,field_description:perol.field_perol__barcode
+msgid "Barcode"
+msgstr ""
+
+#. module: perol
+#: model:uom.uom,name:perol.product_uom_calorie
+msgid "Calorie"
+msgstr ""
+
+#. module: perol
+#: model_terms:ir.ui.view,arch_db:perol.import_perol_media_view_form
+msgid "Cancel"
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields.selection,name:perol.selection__perol__state__canceled
+msgid "Canceled"
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields,field_description:perol.field_product_product__food_carbohydrates
+#: model:ir.model.fields,field_description:perol.field_product_template__food_carbohydrates
+msgid "Carbohydrates"
+msgstr ""
+
+#. module: perol
+#: model:ir.ui.menu,name:perol.menu_product_category_config_stock
+#: model:ir.ui.menu,name:perol.perol_category_view_menu
+msgid "Categories"
+msgstr ""
+
+#. module: perol
+#: model:ir.actions.act_window,name:perol.perol_category_action
+#: model:ir.model.fields,field_description:perol.field_perol__category_ids
+#: model:ir.model.fields,field_description:perol.field_perol_media_tag__category_id
+#: model:ir.model.fields,field_description:perol.field_perol_tag__category_id
+#: model_terms:ir.ui.view,arch_db:perol.perol_view_search
+msgid "Category"
+msgstr ""
+
+#. module: perol
+#: model:product.template.allergen,name:perol.product_template_allergen_celery
+msgid "Celery"
+msgstr ""
+
+#. module: perol
+#: model:uom.uom,name:perol.product_uom_centiliters
+msgid "Centiliters"
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields,field_description:perol.field_perol_category__child_id
+msgid "Child categories"
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields,field_description:perol.field_perol_media_tag__color
+#: model:ir.model.fields,field_description:perol.field_perol_tag__color
+msgid "Color Index"
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields,field_description:perol.field_import_perol_media__company_id
+#: model:ir.model.fields,field_description:perol.field_perol__company_id
+msgid "Company"
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields,field_description:perol.field_perol_category__complete_name
+msgid "Complete name"
+msgstr ""
+
+#. module: perol
+#: model:ir.actions.act_window,name:perol.perol_config_action
+#: model:ir.model,name:perol.model_res_config_settings
+msgid "Config Settings"
+msgstr ""
+
+#. module: perol
+#: model:ir.ui.menu,name:perol.perol_config_menu
+#: model:ir.ui.menu,name:perol.perol_technical_menu
+msgid "Configuration"
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields,field_description:perol.field_perol_step__ingredient_ids
+msgid "Consume"
+msgstr ""
+
+#. module: perol
+#: model_terms:ir.actions.act_window,help:perol.perol_media_tag_action
+msgid "Create a media Tag"
+msgstr ""
+
+#. module: perol
+#: model_terms:ir.actions.act_window,help:perol.perol_view_action
+msgid "Create a perol"
+msgstr ""
+
+#. module: perol
+#: model_terms:ir.actions.act_window,help:perol.perol_media_action
+msgid "Create a perol media source"
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields,field_description:perol.field_import_perol_media__create_uid
+#: model:ir.model.fields,field_description:perol.field_perol__create_uid
+#: model:ir.model.fields,field_description:perol.field_perol_category__create_uid
+#: model:ir.model.fields,field_description:perol.field_perol_ingredient__create_uid
+#: model:ir.model.fields,field_description:perol.field_perol_media__create_uid
+#: model:ir.model.fields,field_description:perol.field_perol_media_tag__create_uid
+#: model:ir.model.fields,field_description:perol.field_perol_media_tag_category__create_uid
+#: model:ir.model.fields,field_description:perol.field_perol_step__create_uid
+#: model:ir.model.fields,field_description:perol.field_perol_tag__create_uid
+#: model:ir.model.fields,field_description:perol.field_perol_tag_category__create_uid
+#: model:ir.model.fields,field_description:perol.field_product_template_allergen__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields,field_description:perol.field_import_perol_media__create_date
+#: model:ir.model.fields,field_description:perol.field_perol__create_date
+#: model:ir.model.fields,field_description:perol.field_perol_category__create_date
+#: model:ir.model.fields,field_description:perol.field_perol_ingredient__create_date
+#: model:ir.model.fields,field_description:perol.field_perol_media__create_date
+#: model:ir.model.fields,field_description:perol.field_perol_media_tag__create_date
+#: model:ir.model.fields,field_description:perol.field_perol_media_tag_category__create_date
+#: model:ir.model.fields,field_description:perol.field_perol_step__create_date
+#: model:ir.model.fields,field_description:perol.field_perol_tag__create_date
+#: model:ir.model.fields,field_description:perol.field_perol_tag_category__create_date
+#: model:ir.model.fields,field_description:perol.field_product_template_allergen__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: perol
+#: model:product.template.allergen,name:perol.product_template_allergen_crustacean
+msgid "Crustacean"
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields,help:perol.field_perol__access_url
+msgid "Customer Portal URL"
+msgstr ""
+
+#. module: perol
+#: model:product.template.allergen,name:perol.product_template_allergen_dairy
+msgid "Dairy"
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields,help:perol.field_perol_ingredient__uom_id
+msgid "Default unit of measure used for all stock operations."
+msgstr ""
+
+#. module: perol
+#: model_terms:ir.actions.act_window,help:perol.perol_tag_action
+msgid "Define a new tag"
+msgstr ""
+
+#. module: perol
+#: model_terms:ir.actions.act_window,help:perol.perol_media_action
+msgid "Define your perol images, video url."
+msgstr ""
+
+#. module: perol
+#: model_terms:ir.actions.act_window,help:perol.perol_view_action
+msgid "Define your perol steps, ingredients and more...."
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields,field_description:perol.field_perol__description
+#: model:ir.model.fields,field_description:perol.field_perol_step__description
+#: model:ir.model.fields,field_description:perol.field_product_template_allergen__description
+#: model_terms:ir.ui.view,arch_db:perol.perol_step_view_form
+#: model_terms:ir.ui.view,arch_db:perol.perol_view_form
+#: model_terms:ir.ui.view,arch_db:perol.product_template_allergen_view_form
+msgid "Description"
+msgstr ""
+
+#. module: perol
+#: model_terms:ir.ui.view,arch_db:perol.perol_view_form
+msgid "Details"
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields,field_description:perol.field_perol__difficulty
+#: model_terms:ir.ui.view,arch_db:perol.perol_view_search
+msgid "Difficulty"
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields,field_description:perol.field_import_perol_media__display_name
+#: model:ir.model.fields,field_description:perol.field_perol__display_name
+#: model:ir.model.fields,field_description:perol.field_perol_category__display_name
+#: model:ir.model.fields,field_description:perol.field_perol_ingredient__display_name
+#: model:ir.model.fields,field_description:perol.field_perol_media__display_name
+#: model:ir.model.fields,field_description:perol.field_perol_media_tag__display_name
+#: model:ir.model.fields,field_description:perol.field_perol_media_tag_category__display_name
+#: model:ir.model.fields,field_description:perol.field_perol_step__display_name
+#: model:ir.model.fields,field_description:perol.field_perol_tag__display_name
+#: model:ir.model.fields,field_description:perol.field_perol_tag_category__display_name
+#: model:ir.model.fields,field_description:perol.field_product_template_allergen__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields.selection,name:perol.selection__import_perol_media__state__done
+msgid "Done"
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields.selection,name:perol.selection__import_perol_media__state__draft
+#: model:ir.model.fields.selection,name:perol.selection__perol__state__draft
+msgid "Draft"
+msgstr ""
+
+#. module: perol
+#: model:product.template.allergen,name:perol.product_template_allergen_egg
+msgid "Egg"
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields.selection,name:perol.selection__perol_step__step_type__elaboration
+msgid "Elaboration"
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields,field_description:perol.field_perol_media__embed_code
+msgid "Embed Code"
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields.selection,name:perol.selection__perol__state__enabled
+msgid "Enabled"
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields,field_description:perol.field_product_product__food_energy_kj
+#: model:ir.model.fields,field_description:perol.field_product_template__food_energy_kj
+msgid "Energy Kj"
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields,field_description:perol.field_product_product__food_energy_cal
+#: model:ir.model.fields,field_description:perol.field_product_template__food_energy_cal
+msgid "Energy cal"
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields,field_description:perol.field_product_product__food_energy_uom
+#: model:ir.model.fields,field_description:perol.field_product_template__food_energy_uom
+msgid "Energy uom"
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields,field_description:perol.field_product_product__food_fat
+#: model:ir.model.fields,field_description:perol.field_product_template__food_fat
+msgid "Fat"
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields,field_description:perol.field_perol__priority
+#: model:ir.model.fields.selection,name:perol.selection__perol__priority__1
+msgid "Favorite"
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields,field_description:perol.field_product_product__food_fiber
+#: model:ir.model.fields,field_description:perol.field_product_template__food_fiber
+msgid "Fiber"
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields,field_description:perol.field_import_perol_media__file_name
+msgid "File Name"
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields,field_description:perol.field_import_perol_media__file
+msgid "File zip"
+msgstr ""
+
+#. module: perol
+#: model:product.template.allergen,name:perol.product_template_allergen_fish
+msgid "Fish"
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields,field_description:perol.field_perol__message_follower_ids
+msgid "Followers"
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields,field_description:perol.field_perol__message_partner_ids
+msgid "Followers (Partners)"
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields,help:perol.field_perol__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr ""
+
+#. module: perol
+#: model:ir.actions.act_window,name:perol.product_template_food_action
+#: model_terms:ir.ui.view,arch_db:perol.product_template_only_form_view
+msgid "Food"
+msgstr ""
+
+#. module: perol
+#: model_terms:ir.ui.view,arch_db:perol.perol_view_form
+#: model_terms:ir.ui.view,arch_db:perol.product_template_only_form_view
+msgid "General"
+msgstr ""
+
+#. module: perol
+#: model:uom.uom,name:perol.product_uom_glass_250
+msgid "Glass (250ml)"
+msgstr ""
+
+#. module: perol
+#: model:product.template.allergen,name:perol.product_template_allergen_gluten
+msgid "Gluten"
+msgstr ""
+
+#. module: perol
+#: model_terms:ir.ui.view,arch_db:perol.perol_media_view_search
+#: model_terms:ir.ui.view,arch_db:perol.perol_view_search
+msgid "Group By"
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields,field_description:perol.field_perol__has_message
+msgid "Has Message"
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields.selection,name:perol.selection__perol__difficulty__60
+msgid "High"
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields,field_description:perol.field_perol__history
+#: model_terms:ir.ui.view,arch_db:perol.perol_view_form
+msgid "History"
+msgstr ""
+
+#. module: perol
+#: model_terms:ir.ui.view,arch_db:perol.perol_media_view_kanban
+msgid "Huge file size. The image should be optimized/reduced."
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields,field_description:perol.field_import_perol_media__id
+#: model:ir.model.fields,field_description:perol.field_perol__id
+#: model:ir.model.fields,field_description:perol.field_perol_category__id
+#: model:ir.model.fields,field_description:perol.field_perol_ingredient__id
+#: model:ir.model.fields,field_description:perol.field_perol_media__id
+#: model:ir.model.fields,field_description:perol.field_perol_media_tag__id
+#: model:ir.model.fields,field_description:perol.field_perol_media_tag_category__id
+#: model:ir.model.fields,field_description:perol.field_perol_step__id
+#: model:ir.model.fields,field_description:perol.field_perol_tag__id
+#: model:ir.model.fields,field_description:perol.field_perol_tag_category__id
+#: model:ir.model.fields,field_description:perol.field_product_template_allergen__id
+msgid "ID"
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields,field_description:perol.field_perol__activity_exception_icon
+#: model:ir.model.fields,field_description:perol.field_product_template_allergen__avatar_128
+#: model:ir.model.fields,field_description:perol.field_product_template_allergen__icon_128
+msgid "Icon"
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields,help:perol.field_perol__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields,help:perol.field_perol__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields,help:perol.field_perol__message_has_error
+msgid "If checked, some messages have a delivery error."
+msgstr ""
+
+#. module: perol
+#: model_terms:ir.ui.view,arch_db:perol.res_config_settings_view_form_perol
+msgid "If enabled, you can publish your recipes on the blog."
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields,help:perol.field_perol__active
+msgid "If unchecked, it will allow you to hide the perol without removing it."
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields,field_description:perol.field_perol__image_1920
+#: model:ir.model.fields,field_description:perol.field_perol_media__image_1920
+msgid "Image"
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields,field_description:perol.field_perol__image_1024
+#: model:ir.model.fields,field_description:perol.field_perol_media__image_1024
+msgid "Image 1024"
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields,field_description:perol.field_perol__image_128
+#: model:ir.model.fields,field_description:perol.field_perol_media__image_128
+msgid "Image 128"
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields,field_description:perol.field_perol__image_256
+#: model:ir.model.fields,field_description:perol.field_perol_media__image_256
+msgid "Image 256"
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields,field_description:perol.field_perol__image_512
+#: model:ir.model.fields,field_description:perol.field_perol_media__image_512
+msgid "Image 512"
+msgstr ""
+
+#. module: perol
+#: model_terms:ir.ui.view,arch_db:perol.import_perol_media_view_form
+msgid "Import"
+msgstr ""
+
+#. module: perol
+#. odoo-python
+#: code:addons/perol/wizards/wizard_import_perol_media.py:0
+#: model:ir.actions.act_window,name:perol.import_perol_media_action
+#: model:ir.model,name:perol.model_import_perol_media
+#: model_terms:ir.ui.view,arch_db:perol.import_perol_media_view_form
+#, python-format
+msgid "Import perol media"
+msgstr ""
+
+#. module: perol
+#: model_terms:ir.ui.view,arch_db:perol.perol_ingredient_view_form
+msgid "Ingredient"
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields,field_description:perol.field_perol__ingredient
+#: model_terms:ir.ui.view,arch_db:perol.perol_view_form
+msgid "Ingredients"
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields,field_description:perol.field_perol__internal_note
+msgid "Internal note"
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields,field_description:perol.field_perol__introduction
+#: model_terms:ir.ui.view,arch_db:perol.perol_view_form
+msgid "Introduction"
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields,field_description:perol.field_perol__message_is_follower
+msgid "Is Follower"
+msgstr ""
+
+#. module: perol
+#: model_terms:ir.ui.view,arch_db:perol.product_template_search_view
+msgid "Is a food"
+msgstr ""
+
+#. module: perol
+#: model_terms:ir.ui.view,arch_db:perol.import_perol_media_view_form
+msgid ""
+"It will not any operation be done in the database\n"
+"                        for the next step"
+msgstr ""
+
+#. module: perol
+#: model:uom.uom,name:perol.product_uom_kilocalorie
+msgid "Kcal"
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields,field_description:perol.field_import_perol_media__write_uid
+#: model:ir.model.fields,field_description:perol.field_perol__write_uid
+#: model:ir.model.fields,field_description:perol.field_perol_category__write_uid
+#: model:ir.model.fields,field_description:perol.field_perol_ingredient__write_uid
+#: model:ir.model.fields,field_description:perol.field_perol_media__write_uid
+#: model:ir.model.fields,field_description:perol.field_perol_media_tag__write_uid
+#: model:ir.model.fields,field_description:perol.field_perol_media_tag_category__write_uid
+#: model:ir.model.fields,field_description:perol.field_perol_step__write_uid
+#: model:ir.model.fields,field_description:perol.field_perol_tag__write_uid
+#: model:ir.model.fields,field_description:perol.field_perol_tag_category__write_uid
+#: model:ir.model.fields,field_description:perol.field_product_template_allergen__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields,field_description:perol.field_import_perol_media__write_date
+#: model:ir.model.fields,field_description:perol.field_perol__write_date
+#: model:ir.model.fields,field_description:perol.field_perol_category__write_date
+#: model:ir.model.fields,field_description:perol.field_perol_ingredient__write_date
+#: model:ir.model.fields,field_description:perol.field_perol_media__write_date
+#: model:ir.model.fields,field_description:perol.field_perol_media_tag__write_date
+#: model:ir.model.fields,field_description:perol.field_perol_media_tag_category__write_date
+#: model:ir.model.fields,field_description:perol.field_perol_step__write_date
+#: model:ir.model.fields,field_description:perol.field_perol_tag__write_date
+#: model:ir.model.fields,field_description:perol.field_perol_tag_category__write_date
+#: model:ir.model.fields,field_description:perol.field_product_template_allergen__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields.selection,name:perol.selection__perol__difficulty__10
+msgid "Low"
+msgstr ""
+
+#. module: perol
+#: model:product.template.allergen,name:perol.product_template_allergen_lupine
+msgid "Lupine"
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields,field_description:perol.field_perol__manufacturing_hours
+msgid "Manufacturing"
+msgstr ""
+
+#. module: perol
+#: model:ir.actions.act_window,name:perol.perol_media_action
+#: model:ir.model.fields,field_description:perol.field_perol__media_ids
+#: model:ir.model.fields,field_description:perol.field_perol_media_tag__media_ids
+#: model:ir.ui.menu,name:perol.perol_media_menu
+#: model:ir.ui.menu,name:perol.perol_technical_media_menu
+#: model_terms:ir.ui.view,arch_db:perol.perol_view_form
+msgid "Media"
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields,field_description:perol.field_perol__media_count
+msgid "Media count"
+msgstr ""
+
+#. module: perol
+#: model_terms:ir.ui.view,arch_db:perol.perol_media_tag_view_form
+msgid "Media tag"
+msgstr ""
+
+#. module: perol
+#: model:ir.actions.act_window,name:perol.perol_media_tag_category_action
+msgid "Media tag categories"
+msgstr ""
+
+#. module: perol
+#: model:ir.actions.act_window,name:perol.perol_media_tag_action
+msgid "Media tags"
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields.selection,name:perol.selection__perol__difficulty__30
+msgid "Medium"
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields,field_description:perol.field_perol__message_has_error
+msgid "Message Delivery error"
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields,field_description:perol.field_perol__message_ids
+msgid "Messages"
+msgstr ""
+
+#. module: perol
+#: model:uom.uom,name:perol.product_uom_milliliters
+msgid "Milliliters"
+msgstr ""
+
+#. module: perol
+#: model:product.template.allergen,name:perol.product_template_allergen_mollusk
+msgid "Mollusk"
+msgstr ""
+
+#. module: perol
+#: model:product.template.allergen,name:perol.product_template_allergen_mustard
+msgid "Mustard"
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields,field_description:perol.field_perol__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields,field_description:perol.field_perol__name
+#: model:ir.model.fields,field_description:perol.field_perol_category__name
+#: model:ir.model.fields,field_description:perol.field_perol_media__name
+#: model:ir.model.fields,field_description:perol.field_perol_media_tag_category__name
+#: model:ir.model.fields,field_description:perol.field_perol_step__name
+#: model:ir.model.fields,field_description:perol.field_perol_tag_category__name
+#: model:ir.model.fields,field_description:perol.field_product_template_allergen__name
+#: model_terms:ir.ui.view,arch_db:perol.perol_media_view_search
+#: model_terms:ir.ui.view,arch_db:perol.perol_view_form
+#: model_terms:ir.ui.view,arch_db:perol.perol_view_search
+#: model_terms:ir.ui.view,arch_db:perol.product_template_allergen_view_form
+msgid "Name"
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields,field_description:perol.field_perol__activity_calendar_event_id
+msgid "Next Activity Calendar Event"
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields,field_description:perol.field_perol__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields,field_description:perol.field_perol__activity_summary
+msgid "Next Activity Summary"
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields,field_description:perol.field_perol__activity_type_id
+msgid "Next Activity Type"
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields.selection,name:perol.selection__perol__priority__0
+msgid "Normal"
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields,field_description:perol.field_perol__message_needaction_counter
+msgid "Number of Actions"
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields,field_description:perol.field_perol__message_has_error_counter
+msgid "Number of errors"
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields,help:perol.field_perol__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields,help:perol.field_perol__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr ""
+
+#. module: perol
+#: model_terms:ir.ui.view,arch_db:perol.product_template_only_form_view
+msgid "Nutritional"
+msgstr ""
+
+#. module: perol
+#: model:uom.category,name:perol.product_uom_category_nutritional_energy
+msgid "Nutritional energy"
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields,field_description:perol.field_product_product__food_nutritional_uom
+#: model:ir.model.fields,field_description:perol.field_product_template__food_nutritional_uom
+msgid "Nutritional uom"
+msgstr ""
+
+#. module: perol
+#: model:product.template.allergen,name:perol.product_template_allergen_nuts
+msgid "Nuts"
+msgstr ""
+
+#. module: perol
+#: model:ir.module.category,description:perol.module_category_perol
+msgid "Odoo modules for perol management."
+msgstr ""
+
+#. module: perol
+#: model_terms:ir.ui.view,arch_db:perol.perol_media_view_kanban
+msgid ""
+"Optimization required! Reduce the image size or increase your\n"
+"                                    compression settings."
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields,field_description:perol.field_perol_category__parent_id
+msgid "Parent category"
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields,field_description:perol.field_perol_category__parent_path
+msgid "Parent path"
+msgstr ""
+
+#. module: perol
+#: model:product.template.allergen,name:perol.product_template_allergen_peanut
+msgid "Peanut"
+msgstr ""
+
+#. module: perol
+#: model:ir.actions.act_window,name:perol.perol_view_action
+#: model:ir.model,name:perol.model_perol
+#: model:ir.model.fields,field_description:perol.field_import_perol_media__perol_id
+#: model:ir.model.fields,field_description:perol.field_perol_ingredient__perol_id
+#: model:ir.model.fields,field_description:perol.field_perol_media__perol_id
+#: model:ir.model.fields,field_description:perol.field_perol_step__perol_id
+#: model:ir.model.fields,field_description:perol.field_perol_tag__perol_ids
+#: model:ir.module.category,name:perol.module_category_perol
+#: model:ir.ui.menu,name:perol.perol_main_menu
+#: model:ir.ui.menu,name:perol.perol_root_menu
+#: model:ir.ui.menu,name:perol.perol_technical_perol_menu
+#: model:ir.ui.menu,name:perol.perol_view_menu
+#: model:uom.category,name:perol.product_uom_category_perol
+#: model_terms:ir.ui.view,arch_db:perol.perol_media_view_search
+#: model_terms:ir.ui.view,arch_db:perol.perol_view_form
+#: model_terms:ir.ui.view,arch_db:perol.res_config_settings_view_form_perol
+msgid "Perol"
+msgstr ""
+
+#. module: perol
+#: model_terms:ir.ui.view,arch_db:perol.perol_tag_view_from
+msgid "Perol Tag"
+msgstr ""
+
+#. module: perol
+#: model:ir.actions.act_window,name:perol.perol_tag_action
+msgid "Perol Tags"
+msgstr ""
+
+#. module: perol
+#: model:ir.model,name:perol.model_perol_category
+#: model_terms:ir.ui.view,arch_db:perol.perol_category_view_form
+msgid "Perol category"
+msgstr ""
+
+#. module: perol
+#: model:ir.model,name:perol.model_perol_ingredient
+msgid "Perol ingredient"
+msgstr ""
+
+#. module: perol
+#: model:ir.model,name:perol.model_perol_media
+#: model_terms:ir.ui.view,arch_db:perol.perol_media_view_form
+msgid "Perol media"
+msgstr ""
+
+#. module: perol
+#: model:ir.model,name:perol.model_perol_media_tag
+msgid "Perol media tag"
+msgstr ""
+
+#. module: perol
+#: model:ir.model,name:perol.model_perol_media_tag_category
+msgid "Perol media tag category"
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields,field_description:perol.field_perol_ingredient__perol_reference
+msgid "Perol related"
+msgstr ""
+
+#. module: perol
+#: model_terms:ir.ui.view,arch_db:perol.perol_view_search
+msgid "Perol search"
+msgstr ""
+
+#. module: perol
+#: model:ir.model,name:perol.model_perol_step
+msgid "Perol step"
+msgstr ""
+
+#. module: perol
+#: model:ir.actions.act_window,name:perol.perol_tag_category_action
+#: model:ir.model,name:perol.model_perol_tag
+#: model:ir.model,name:perol.model_perol_tag_category
+msgid "Perol tag"
+msgstr ""
+
+#. module: perol
+#: model_terms:ir.ui.view,arch_db:perol.perol_media_tag_category_view_form
+#: model_terms:ir.ui.view,arch_db:perol.perol_tag_category_view_form
+msgid "Perol tag category"
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields,field_description:perol.field_perol__access_url
+msgid "Portal Access URL"
+msgstr ""
+
+#. module: perol
+#: model:uom.uom,name:perol.product_uom_perol_base
+msgid "Portion"
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields,field_description:perol.field_perol__portion_number
+msgid "Portions"
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields,field_description:perol.field_perol__preparation_hours
+#: model:ir.model.fields.selection,name:perol.selection__perol_step__step_type__preparation
+msgid "Preparation"
+msgstr ""
+
+#. module: perol
+#: model:ir.model,name:perol.model_product_template
+#: model:ir.model.fields,field_description:perol.field_perol_ingredient__product_id
+#: model:ir.ui.menu,name:perol.perol_product_template_food_view_menu
+msgid "Product"
+msgstr ""
+
+#. module: perol
+#: model:ir.actions.act_window,name:perol.product_template_allergen_action
+#: model:ir.model,name:perol.model_product_template_allergen
+msgid "Product allergen"
+msgstr ""
+
+#. module: perol
+#: model:ir.ui.menu,name:perol.perol_product_template_food_main_menu
+msgid "Products"
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields,field_description:perol.field_product_product__food_proteins
+#: model:ir.model.fields,field_description:perol.field_product_template__food_proteins
+msgid "Proteins"
+msgstr ""
+
+#. module: perol
+#. odoo-python
+#: code:addons/perol/models/perol_media.py:0
+#, python-format
+msgid ""
+"Provided video URL for %s is not valid. Please enter a valid video URL."
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields,field_description:perol.field_perol_ingredient__product_qty
+msgid "Quantity"
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields,field_description:perol.field_perol__rating_ids
+msgid "Ratings"
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields,field_description:perol.field_perol_ingredient__recipe_qty
+msgid "Recipe qty"
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields,field_description:perol.field_perol_ingredient__uom_recipe_category_id
+msgid "Recipe uom category"
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields,field_description:perol.field_perol__default_code
+msgid "Reference"
+msgstr ""
+
+#. module: perol
+#: model_terms:ir.ui.view,arch_db:perol.perol_media_view_form
+msgid "Resource name"
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields,field_description:perol.field_perol__activity_user_id
+msgid "Responsible User"
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields,field_description:perol.field_product_product__food_salt
+#: model:ir.model.fields,field_description:perol.field_product_template__food_salt
+msgid "Salt"
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields,field_description:perol.field_product_product__food_saturated_fat
+#: model:ir.model.fields,field_description:perol.field_product_template__food_saturated_fat
+msgid "Saturated fat"
+msgstr ""
+
+#. module: perol
+#: model_terms:ir.ui.view,arch_db:perol.perol_media_view_search
+msgid "Search media"
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields,field_description:perol.field_perol__access_token
+msgid "Security Token"
+msgstr ""
+
+#. module: perol
+#: model_terms:ir.ui.view,arch_db:perol.import_perol_media_view_form
+msgid "Select the zip file to import:"
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields,field_description:perol.field_perol__sequence
+#: model:ir.model.fields,field_description:perol.field_perol_ingredient__sequence
+#: model:ir.model.fields,field_description:perol.field_perol_media_tag__sequence
+#: model:ir.model.fields,field_description:perol.field_perol_media_tag_category__sequence
+#: model:ir.model.fields,field_description:perol.field_perol_step__sequence
+#: model:ir.model.fields,field_description:perol.field_perol_tag__sequence
+#: model:ir.model.fields,field_description:perol.field_perol_tag_category__sequence
+msgid "Sequence"
+msgstr ""
+
+#. module: perol
+#: model:product.template.allergen,name:perol.product_template_allergen_sesame
+msgid "Sesame"
+msgstr ""
+
+#. module: perol
+#: model:ir.ui.menu,name:perol.menu_perol_general_settings
+msgid "Setting"
+msgstr ""
+
+#. module: perol
+#: model:product.template.allergen,name:perol.product_template_allergen_soy
+msgid "Soy"
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields,field_description:perol.field_import_perol_media__state
+#: model:ir.model.fields,field_description:perol.field_perol__state
+#: model_terms:ir.ui.view,arch_db:perol.perol_view_search
+msgid "State"
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields,help:perol.field_perol__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+
+#. module: perol
+#: model_terms:ir.ui.view,arch_db:perol.perol_step_view_form
+msgid "Step"
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields,field_description:perol.field_perol__step
+#: model_terms:ir.ui.view,arch_db:perol.perol_view_form
+msgid "Steps"
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields,field_description:perol.field_product_product__food_sugar
+#: model:ir.model.fields,field_description:perol.field_product_template__food_sugar
+msgid "Sugar"
+msgstr ""
+
+#. module: perol
+#: model:product.template.allergen,name:perol.product_template_allergen_sulfite
+msgid "Sulfite"
+msgstr ""
+
+#. module: perol
+#: model:uom.uom,name:perol.product_uom_tablespoon
+msgid "TableSpoon"
+msgstr ""
+
+#. module: perol
+#: model_terms:ir.ui.view,arch_db:perol.perol_view_search
+msgid "Tag"
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields,field_description:perol.field_perol_media_tag__name
+#: model:ir.model.fields,field_description:perol.field_perol_tag__name
+msgid "Tag Name"
+msgstr ""
+
+#. module: perol
+#: model:ir.model.constraint,message:perol.constraint_perol_media_tag_name_uniq
+#: model:ir.model.constraint,message:perol.constraint_perol_tag_name_uniq
+msgid "Tag name already exists !"
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields,field_description:perol.field_perol__tag_ids
+#: model:ir.model.fields,field_description:perol.field_perol_media_tag_category__tag_ids
+#: model:ir.model.fields,field_description:perol.field_perol_tag_category__tag_ids
+#: model:ir.ui.menu,name:perol.perol_media_tag_menu
+#: model:ir.ui.menu,name:perol.perol_tag_view_menu
+msgid "Tags"
+msgstr ""
+
+#. module: perol
+#: model_terms:ir.actions.act_window,help:perol.perol_tag_action
+msgid "Tags are used to search tree for a given theme."
+msgstr ""
+
+#. module: perol
+#: model:ir.ui.menu,name:perol.perol_media_tag_category_menu
+#: model:ir.ui.menu,name:perol.perol_tag_category_view_menu
+msgid "Tags category"
+msgstr ""
+
+#. module: perol
+#: model:uom.uom,name:perol.product_uom_taste
+msgid "Taste"
+msgstr ""
+
+#. module: perol
+#: model:uom.uom,name:perol.product_uom_teaspoon
+msgid "TeaSpoon"
+msgstr ""
+
+#. module: perol
+#: model_terms:ir.ui.view,arch_db:perol.perol_view_form
+msgid "Text"
+msgstr ""
+
+#. module: perol
+#: model_terms:ir.ui.view,arch_db:perol.perol_view_form
+msgid "This description is only for internal purposes."
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields,field_description:perol.field_perol_step__manufacturing_hours
+msgid "Time"
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields,field_description:perol.field_perol__amount_hours
+#: model_terms:ir.ui.view,arch_db:perol.perol_view_form
+msgid "Total time"
+msgstr ""
+
+#. module: perol
+#: model_terms:ir.ui.view,arch_db:perol.perol_view_kanban
+msgid "Tree"
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields,field_description:perol.field_perol_step__step_type
+msgid "Type"
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields,help:perol.field_perol__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields,help:perol.field_perol_media__video_url
+msgid "URL of a video for showcasing your trees."
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields,field_description:perol.field_perol_ingredient__recipe_uom_name
+msgid "Unit of Measure"
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields,field_description:perol.field_perol_ingredient__uom_id
+msgid "UoM"
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields,field_description:perol.field_perol_ingredient__recipe_uom_id
+msgid "UoM recipe"
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields,field_description:perol.field_perol_ingredient__uom_name
+msgid "Uom"
+msgstr ""
+
+#. module: perol
+#: model:res.groups,name:perol.group_perol_user
+msgid "User"
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields.selection,name:perol.selection__perol__difficulty__90
+msgid "Very high"
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields,field_description:perol.field_perol_media__video_url
+msgid "Video url"
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields,field_description:perol.field_perol__website_message_ids
+msgid "Website Messages"
+msgstr ""
+
+#. module: perol
+#: model_terms:ir.ui.view,arch_db:perol.res_config_settings_view_form_perol
+msgid "Website blog"
+msgstr ""
+
+#. module: perol
+#: model_terms:ir.ui.view,arch_db:perol.res_config_settings_view_form_perol
+msgid "Website blog Perol"
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields,field_description:perol.field_res_config_settings__module_website_blog_perol
+msgid "Website blog perol: publish your recipes on the blog"
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields,help:perol.field_perol__website_message_ids
+msgid "Website communication history"
+msgstr ""
+
+#. module: perol
+#. odoo-python
+#: code:addons/perol/models/perol_category.py:0
+#, python-format
+msgid "You cannot create recursive categories."
+msgstr ""
+
+#. module: perol
+#: model_terms:ir.ui.view,arch_db:perol.product_template_allergen_view_form
+msgid "e.g. Cheese Burger"
+msgstr ""
+
+#. module: perol
+#: model_terms:ir.ui.view,arch_db:perol.perol_view_form
+msgid "e.g. meat recipe"
+msgstr ""
+
+#. module: perol
+#: model_terms:ir.ui.view,arch_db:perol.product_template_allergen_view_form
+msgid "e.g. wheat flour, chickpea flour"
+msgstr ""
+
+#. module: perol
+#: model_terms:ir.ui.view,arch_db:perol.perol_media_view_kanban
+msgid "perol media"
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields,field_description:perol.field_perol_media__sequence
+msgid "sequence"
+msgstr ""

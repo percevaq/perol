@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <record id="res_config_settings_view_form_perol" model="ir.ui.view">
+        <field name="model">res.config.settings</field>
+        <field name="priority" eval="30"/>
+        <field name="inherit_id" ref="base.res_config_settings_view_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//form" position="inside">
+                <app data-string="Perol" string="Perol" name="perol" groups="perol.group_perol_manager">
+                    <block title="Website blog" name="perol_settings_container" groups="perol.group_perol_manager">
+                        <setting id="module_website_blog_perol"
+                                 title="If enabled, you can publish your recipes on the blog."
+                                 help="If enabled, you can publish your recipes on the blog.">
+                            <field name="module_website_blog_perol" string="Website blog Perol"/>
+                        </setting>
+                    </block>
+                </app>
+            </xpath>
+        </field>
+    </record>
+    <record id="perol_config_action" model="ir.actions.act_window">
+        <field name="res_model">res.config.settings</field>
+        <field name="view_mode">form</field>
+        <field name="target">inline</field>
+        <field name="context">
+            {'module' : 'perol', 'bin_size': False}
+        </field>
+    </record>
+    <menuitem id="menu_perol_general_settings" name="Setting" parent="perol.perol_config_menu"
+              sequence="0" action="perol_config_action" groups="base.group_system"/>
+
+</odoo>

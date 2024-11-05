@@ -1,0 +1,58 @@
+<odoo noupdate="1">
+    <record id="product_template_allergen_celery" model="product.template.allergen">
+        <field name="name">Celery</field>
+        <field name="icon_128" type="base64" file="perol/static/src/img/celery.png"/>
+    </record>
+    <record id="product_template_allergen_crustacean" model="product.template.allergen">
+        <field name="name">Crustacean</field>
+        <field name="icon_128" type="base64" file="perol/static/src/img/crustacean.png"/>
+    </record>
+    <record id="product_template_allergen_dairy" model="product.template.allergen">
+        <field name="name">Dairy</field>
+        <field name="icon_128" type="base64" file="perol/static/src/img/dairy.png"/>
+    </record>
+    <record id="product_template_allergen_egg" model="product.template.allergen">
+        <field name="name">Egg</field>
+        <field name="icon_128" type="base64" file="perol/static/src/img/egg.png"/>
+    </record>
+    <record id="product_template_allergen_fish" model="product.template.allergen">
+        <field name="name">Fish</field>
+        <field name="icon_128" type="base64" file="perol/static/src/img/fish.png"/>
+    </record>
+    <record id="product_template_allergen_gluten" model="product.template.allergen">
+        <field name="name">Gluten</field>
+        <field name="icon_128" type="base64" file="perol/static/src/img/gluten.png"/>
+    </record>
+    <record id="product_template_allergen_lupine" model="product.template.allergen">
+        <field name="name">Lupine</field>
+        <field name="icon_128" type="base64" file="perol/static/src/img/lupine.png"/>
+    </record>
+    <record id="product_template_allergen_mollusk" model="product.template.allergen">
+        <field name="name">Mollusk</field>
+        <field name="icon_128" type="base64" file="perol/static/src/img/mollusk.png"/>
+    </record>
+    <record id="product_template_allergen_mustard" model="product.template.allergen">
+        <field name="name">Mustard</field>
+        <field name="icon_128" type="base64" file="perol/static/src/img/mustard.png"/>
+    </record>
+    <record id="product_template_allergen_nuts" model="product.template.allergen">
+        <field name="name">Nuts</field>
+        <field name="icon_128" type="base64" file="perol/static/src/img/nuts.png"/>
+    </record>
+    <record id="product_template_allergen_peanut" model="product.template.allergen">
+        <field name="name">Peanut</field>
+        <field name="icon_128" type="base64" file="perol/static/src/img/peanut.png"/>
+    </record>
+    <record id="product_template_allergen_sesame" model="product.template.allergen">
+        <field name="name">Sesame</field>
+        <field name="icon_128" type="base64" file="perol/static/src/img/sesame.png"/>
+    </record>
+    <record id="product_template_allergen_soy" model="product.template.allergen">
+        <field name="name">Soy</field>
+        <field name="icon_128" type="base64" file="perol/static/src/img/soy.png"/>
+    </record>
+    <record id="product_template_allergen_sulfite" model="product.template.allergen">
+        <field name="name">Sulfite</field>
+        <field name="icon_128" type="base64" file="perol/static/src/img/sulfite.png"/>
+    </record>
+</odoo>

@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<odoo>
+    <record id="perol_media_tag_category_view_form" model="ir.ui.view">
+        <field name="model">perol.media.tag.category</field>
+        <field name="arch" type="xml">
+            <form string="Perol tag category">
+                <sheet>
+                    <group>
+                        <field name="name"/>
+                        <field name="tag_ids">
+                            <tree editable="bottom">
+                                <field name="sequence" widget="handle"/>
+                                <field name="name"/>
+                                <field name="color" widget="color_picker"/>
+                            </tree>
+                        </field>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+    <record id="perol_media_tag_category_view_list" model="ir.ui.view">
+        <field name="model">perol.media.tag.category</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="sequence" widget="handle"/>
+                <field name="name"/>
+                <field name="tag_ids" widget="many2many_tags" options="{'color_field': 'color'}"/>
+            </tree>
+        </field>
+    </record>
+    <record id="perol_media_tag_category_action" model="ir.actions.act_window">
+        <field name="name">Media tag categories</field>
+        <field name="res_model">perol.media.tag.category</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+    <menuitem id="perol_technical_media_menu"
+              name="Media"
+              parent="perol_technical_menu"
+              sequence="20"/>
+    <menuitem id="perol_media_tag_category_menu" name="Tags category"
+              action="perol_media_tag_category_action"
+              parent="perol.perol_technical_media_menu"
+              sequence="22"/>
+</odoo>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <record id="product_template_only_form_view" model="ir.ui.view">
+        <field name="model">product.template</field>
+        <field name="inherit_id" ref="product.product_template_only_form_view"/>
+        <field name="arch" type="xml">
+            <div name="options" position="inside">
+                <span class="d-inline-block">
+                    <field name="is_food"/>
+                    <label for="is_food"/>
+                </span>
+            </div>
+            <xpath expr="//page[@name='sales']" position="after">
+                <page name="food_page" string="Food" invisible="not is_food">
+                    <group name="group_food_general" string="General">
+                        <group>
+                            <field name="food_allergen_ids" widget="many2many_tags"
+                                   options="{'no_create': True}"/>
+                        </group>
+                    </group>
+                    <group name="group_food_nutritional" string="Nutritional">
+                        <group name="group_energy">
+                            <field name="food_energy_uom"/>
+                            <field name="food_energy_cal"/>
+                            <field name="food_energy_kj"/>
+                        </group>
+                        <group name="group_food_composition">
+                            <field name="food_nutritional_uom"/>
+                            <field name="food_fat"/>
+                            <field name="food_saturated_fat"/>
+                            <field name="food_proteins"/>
+                            <field name="food_carbohydrates"/>
+                            <field name="food_sugar"/>
+                            <field name="food_salt"/>
+                            <field name="food_fiber"/>
+                        </group>
+                    </group>
+                </page>
+            </xpath>
+        </field>
+    </record>
+    <record id="product_template_search_view" model="ir.ui.view">
+        <field name="model">product.template</field>
+        <field name="inherit_id" ref="product.product_template_search_view"/>
+        <field name="arch" type="xml">
+            <field name="categ_id" position="after">
+                <field name="is_food"/>
+            </field>
+            <filter name="filter_to_purchase" position="after">
+                <filter string="Is a food" name="filter_is_food"
+                        domain="[('is_food', '=', True)]"/>
+            </filter>
+        </field>
+    </record>
+    <record id="product_template_food_action" model="ir.actions.act_window">
+        <field name="name">Food</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">product.template</field>
+        <field name="view_mode">kanban,tree,form,activity</field>
+        <field name="view_id" ref="product.product_template_kanban_view"/>
+        <field name="search_view_id" ref="product.product_template_search_view"/>
+        <field name="context">{"search_default_filter_is_food":1}</field>
+    </record>
+    <menuitem id="perol_product_template_food_main_menu" name="Products"
+              parent="perol_root_menu"
+              sequence="1"
+              groups="group_perol_user"/>
+    <menuitem id="perol_product_template_food_view_menu" name="Product"
+              parent="perol_product_template_food_main_menu"
+              sequence="3"
+              action="product_template_food_action"
+              groups="group_perol_user"/>
+    <menuitem id="menu_product_category_config_stock"
+              name="Categories"
+              parent="perol.perol_product_template_food_main_menu"
+              sequence="16"
+              action="product.product_category_action_form"/>
+</odoo>

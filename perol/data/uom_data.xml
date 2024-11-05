@@ -1,0 +1,64 @@
+<odoo noupdate="1">
+    <record id="product_uom_centiliters" model="uom.uom">
+        <field name="category_id" ref="uom.product_uom_categ_vol"/>
+        <field name="name">Centiliters</field>
+        <field name="factor" eval="100"/>
+        <field name="uom_type">smaller</field>
+    </record>
+    <record id="product_uom_milliliters" model="uom.uom">
+        <field name="category_id" ref="uom.product_uom_categ_vol"/>
+        <field name="name">Milliliters</field>
+        <field name="factor" eval="1000"/>
+        <field name="uom_type">smaller</field>
+    </record>
+
+    <record id="product_uom_category_nutritional_energy" model="uom.category">
+        <field name="name">Nutritional energy</field>
+    </record>
+    <record id="product_uom_calorie" model="uom.uom">
+        <field name="category_id" ref="product_uom_category_nutritional_energy"/>
+        <field name="name">Calorie</field>
+        <field name="factor" eval="1"/>
+        <field name="uom_type">reference</field>
+    </record>
+    <record id="product_uom_kilocalorie" model="uom.uom">
+        <field name="category_id" ref="product_uom_category_nutritional_energy"/>
+        <field name="name">Kcal</field>
+        <field name="factor" eval="1000"/>
+        <field name="uom_type">bigger</field>
+    </record>
+    <record id="product_uom_category_perol" model="uom.category">
+        <field name="name">Perol</field>
+    </record>
+    <record id="product_uom_perol_base" model="uom.uom">
+        <field name="category_id" ref="product_uom_category_perol"/>
+        <field name="name">Portion</field>
+        <field name="factor" eval="1"/>
+        <field name="uom_type">reference</field>
+    </record>
+    <record id="product_uom_tablespoon" model="uom.uom">
+        <field name="category_id" ref="product_uom_category_perol"/>
+        <field name="name">TableSpoon</field>
+        <field name="factor" eval="10"/>
+        <field name="uom_type">smaller</field>
+    </record>
+    <record id="product_uom_teaspoon" model="uom.uom">
+        <field name="category_id" ref="product_uom_category_perol"/>
+        <field name="name">TeaSpoon</field>
+        <field name="factor" eval="20"/>
+        <field name="uom_type">smaller</field>
+    </record>
+    <record id="product_uom_taste" model="uom.uom">
+        <field name="category_id" ref="product_uom_category_perol"/>
+        <field name="name">Taste</field>
+        <field name="factor" eval="1"/>
+        <field name="uom_type">smaller</field>
+    </record>
+    <record id="product_uom_glass_250" model="uom.uom">
+        <field name="category_id" ref="product_uom_category_perol"/>
+        <field name="name">Glass (250ml)</field>
+        <field name="factor" eval="1"/>
+        <field name="uom_type">smaller</field>
+    </record>
+
+</odoo>

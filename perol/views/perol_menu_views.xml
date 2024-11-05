@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <menuitem id="perol_root_menu" name="Perol"
+              groups="group_perol_manager,perol.group_perol_user"
+              web_icon="perol,static/description/icon.png"
+              sequence="135"/>
+    <menuitem id="perol_config_menu" name="Configuration"
+              parent="perol_root_menu"
+              sequence="100"
+              groups="perol.group_perol_manager"/>
+    <menuitem id="perol_technical_menu" name="Configuration"
+              parent="perol_config_menu"
+              sequence="10"
+              groups="perol.group_perol_manager"/>
+    <menuitem id="perol_main_menu" name="Perol"
+              parent="perol_root_menu"
+              sequence="1"
+              groups="group_perol_user"/>
+</odoo>

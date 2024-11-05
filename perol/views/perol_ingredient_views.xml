@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <record id="perol_ingredient_view_form" model="ir.ui.view">
+        <field name="model">perol.ingredient</field>
+        <field name="arch" type="xml">
+            <form string="Ingredient">
+                <sheet>
+                    <group>
+                        <field name="sequence" invisible="1"/>
+                        <group>
+                            <field name="product_id"/>
+                            <field name="uom_id"/>
+                            <field name="product_qty"/>
+                        </group>
+                        <group>
+                            <field name="uom_recipe_category_id" invisible="1"/>
+                            <field name="recipe_uom_id" optional="hide"
+                                   domain="[('category_id', '=', uom_recipe_category_id)]"/>
+                            <field name="recipe_qty" optional="hide"/>
+                        </group>
+                        <group>
+                            <field name="perol_reference"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+    <record id="perol_ingredient_view_tree" model="ir.ui.view">
+        <field name="model">perol.ingredient</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="sequence" widget="handle"/>
+                <field name="product_id"/>
+                <field name="product_qty"/>
+                <field name="uom_id"/>
+                <field name="recipe_qty" optional="hide"/>
+                <field name="recipe_uom_id" optional="hide"/>
+                <field name="perol_reference"/>
+            </tree>
+        </field>
+    </record>
+</odoo>

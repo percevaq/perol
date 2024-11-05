@@ -1,0 +1,17 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+perol.access_perol_category_user,access_perol_category_user,perol.model_perol_category,perol.group_perol_user,1,0,0,0
+perol.access_perol_category_manager,access_perol_category_manager,perol.model_perol_category,perol.group_perol_manager,1,1,1,1
+perol.access_perol_user,access_perol_user,perol.model_perol,perol.group_perol_user,1,1,1,1
+perol.access_perol_tag_user,access_perol_tag_user,perol.model_perol_tag,perol.group_perol_user,1,0,0,0
+perol.access_perol_tag_manager,access_perol_tag_manager,perol.model_perol_tag,perol.group_perol_manager,1,1,1,1
+perol.access_perol_tag_category_user,access_perol_tag_category_user,perol.model_perol_tag_category,perol.group_perol_user,1,0,0,0
+perol.access_perol_tag_category_manager,access_perol_tag_category_manager,perol.model_perol_tag_category,perol.group_perol_manager,1,1,1,1
+perol.access_perol_media_user,access_perol_media_user,perol.model_perol_media,perol.group_perol_user,1,1,1,1
+perol.access_perol_media_tag_user,access_perol_media_tag_user,perol.model_perol_media_tag,perol.group_perol_user,1,0,0,0
+perol.access_perol_media_tag_manager,access_perol_media_tag_manager,perol.model_perol_media_tag,perol.group_perol_manager,1,1,1,1
+perol.access_perol_media_tag_category_user,access_perol_media_tag_category_user,perol.model_perol_media_tag_category,perol.group_perol_user,1,0,0,0
+perol.access_perol_media_tag_category_manager,access_perol_media_tag_category_manager,perol.model_perol_media_tag_category,perol.group_perol_manager,1,1,1,1
+perol.access_perol_ingredient_user,access_perol_ingredient_user,perol.model_perol_ingredient,perol.group_perol_user,1,1,1,1
+perol.access_perol_step_user,access_perol_step_user,perol.model_perol_step,perol.group_perol_user,1,1,1,1
+perol.access_product_template_allergen_user,access_perol_product_template_allergen_user,perol.model_product_template_allergen,perol.group_perol_user,1,1,1,1
+perol.access_import_perol_media,access_import_perol_media,perol.model_import_perol_media,base.group_user,1,1,1,1
