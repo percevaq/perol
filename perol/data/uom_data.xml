@@ -56,7 +56,7 @@
     </record>
     <record id="product_uom_glass_250" model="uom.uom">
         <field name="category_id" ref="product_uom_category_perol"/>
-        <field name="name">Glass (250ml)</field>
+        <field name="name">Glass</field>
         <field name="factor" eval="1"/>
         <field name="uom_type">smaller</field>
     </record>

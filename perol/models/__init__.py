@@ -13,3 +13,4 @@ from . import perol_tag_category
 from . import product_template
 from . import product_template_allergen
 from . import res_config_settings
+from . import uom_uom

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <template id="blog_post_content" inherit_id="website_blog.blog_post_content">
+        <div t-field="blog_post.content" position="before">
+            <t t-if="blog_post.perol_id">
+                <t t-set="perol" t-value="blog_post.perol_id"/>
+                <row>
+                    <t t-call="website_blog_perol.blog_post_perol_times"/>
+                </row>
+                <row>
+                    <t t-call="website_blog_perol.blog_post_perol_description"/>
+                </row>
+                <row>
+                    <t t-call="website_blog_perol.blog_post_perol_main"/>
+                </row>
+            </t>
+        </div>
+    </template>
+    <template id="blog_post_sidebar" inherit_id="website_blog.blog_post_sidebar"
+              active="True" priority="1">
+        <xpath expr="//div[@id='o_wblog_post_sidebar']" position="inside">
+            <t t-if="blog_post.perol_id and blog_post.perol_id.food_allergen_ids">
+                <t t-set="perol" t-value="blog_post.perol_id"/>
+                <h6 class="text-uppercase pb-3 mb-4 border-bottom fw-bold">Allergens</h6>
+                <t t-call="website_blog_perol.blog_post_perol_allergen"/>
+                <p/>
+            </t>
+        </xpath>
+    </template>
+    <template id="blog_post_short" inherit_id="website_blog.blog_post_short">
+<!--        <xpath expr="//div[@id='o_wblog_blog_top_droppable']//div[@t-field='blog.content']"-->
+<!--               position="after">-->
+<!--<xpath expr="//div[@name='address_not_same_as_shipping']//span[@t-field='o.partner_id.vat']/.." position="after">-->
+<!--            <h1>HOLA HOLA</h1>-->
+<!--        </xpath>-->
+    </template>
+
+<!--    t-field="blog.content"-->
+
+<!--        <div t-field="blog_post.content" position="before">-->
+
+<!--    <template id="blog_post_short" inherit_id="website_blog.blog_post_short">-->
+<!--        <t t-if="blog" position="inside">-->
+<!--            <t t-set="perol" t-value="blog.perol_id"/>-->
+<!--            <row>-->
+<!--                <span t-field="perol.description"/>-->
+<!--            </row>-->
+<!--        </t>-->
+<!--        &lt;!&ndash;        <div t-field="blog.content" position="attributes">&ndash;&gt;-->
+<!--        &lt;!&ndash;            <t t-set="perol" t-value="blog.perol_id"/>&ndash;&gt;-->
+<!--        &lt;!&ndash;            <t t-if="not perol_id">&ndash;&gt;-->
+<!--        &lt;!&ndash;                <attribute name="t-field">blog.content</attribute>&ndash;&gt;-->
+<!--        &lt;!&ndash;            </t>&ndash;&gt;-->
+<!--        &lt;!&ndash;            <t t-if="perol_id">&ndash;&gt;-->
+<!--        &lt;!&ndash;                <attribute name="t-field">blog.perol_id.description</attribute>&ndash;&gt;-->
+<!--        &lt;!&ndash;            </t>&ndash;&gt;-->
+<!--        &lt;!&ndash;        </div>&ndash;&gt;-->
+<!--    </template>-->
+</odoo>

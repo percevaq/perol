@@ -1,0 +1,162 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* website_blog_perol
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-11-18 22:54+0000\n"
+"PO-Revision-Date: 2024-11-18 23:55+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.5\n"
+
+#. module: website_blog_perol
+#: model_terms:ir.ui.view,arch_db:website_blog_perol.blog_post_perol_times
+msgid "<span class=\"fa fa-clock-o fa-2x fa-fw me-2\"/>Amount"
+msgstr "<span class=\"fa fa-clock-o fa-2x fa-fw me-2\"/>Total"
+
+#. module: website_blog_perol
+#: model_terms:ir.ui.view,arch_db:website_blog_perol.blog_post_perol_times
+msgid "<span class=\"fa fa-clock-o fa-2x fa-fw me-2\"/>Pre-&gt;"
+msgstr "<span class=\"fa fa-clock-o fa-2x fa-fw me-2\"/>Prep."
+
+#. module: website_blog_perol
+#: model_terms:ir.ui.view,arch_db:website_blog_perol.blog_post_perol_times
+msgid "<span class=\"fa fa-clock-o fa-2x fa-fw me-2\"/>Work"
+msgstr "<span class=\"fa fa-clock-o fa-2x fa-fw me-2\"/>Cocinado"
+
+#. module: website_blog_perol
+#: model_terms:ir.ui.view,arch_db:website_blog_perol.blog_post_perol_times
+msgid "<span class=\"fa fa-spoon fa-2x fa-fw me-2\"/>Portion"
+msgstr "<span class=\"fa fa-spoon fa-2x fa-fw me-2\"/>Raciones"
+
+#. module: website_blog_perol
+#: model_terms:ir.ui.view,arch_db:website_blog_perol.blog_post_sidebar
+msgid "Allergens"
+msgstr "Alérgenos"
+
+#. module: website_blog_perol
+#: model:ir.model.fields,field_description:website_blog_perol.field_perol_blog_post__blog_id
+msgid "Blog"
+msgstr ""
+
+#. module: website_blog_perol
+#: model:ir.model,name:website_blog_perol.model_blog_post
+msgid "Blog Post"
+msgstr "Entrada de blog"
+
+#. module: website_blog_perol
+#. odoo-python
+#: code:addons/website_blog_perol/models/perol.py:0
+#: model:ir.actions.act_window,name:website_blog_perol.perol_blog_post_action
+#: model_terms:ir.ui.view,arch_db:website_blog_perol.perol_blog_post_view_form
+#: model_terms:ir.ui.view,arch_db:website_blog_perol.perol_view_form
+#, python-format
+msgid "Blog post"
+msgstr "Entrada de blog"
+
+#. module: website_blog_perol
+#: model_terms:ir.ui.view,arch_db:website_blog_perol.perol_blog_post_view_form
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. module: website_blog_perol
+#: model_terms:ir.ui.view,arch_db:website_blog_perol.perol_blog_post_view_form
+msgid "Create"
+msgstr "Crear"
+
+#. module: website_blog_perol
+#: model:ir.model.fields,field_description:website_blog_perol.field_perol_blog_post__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: website_blog_perol
+#: model:ir.model.fields,field_description:website_blog_perol.field_perol_blog_post__create_date
+msgid "Created on"
+msgstr "Creado el"
+
+#. module: website_blog_perol
+#: model:ir.model.fields,field_description:website_blog_perol.field_perol_blog_post__display_name
+msgid "Display Name"
+msgstr "Nombre"
+
+#. module: website_blog_perol
+#: model:ir.model.fields,field_description:website_blog_perol.field_perol_blog_post__id
+msgid "ID"
+msgstr ""
+
+#. module: website_blog_perol
+#: model_terms:ir.ui.view,arch_db:website_blog_perol.blog_post_perol_main
+msgid "Ingredients"
+msgstr "Ingredientes"
+
+#. module: website_blog_perol
+#: model:ir.model.fields,field_description:website_blog_perol.field_perol_blog_post__write_uid
+msgid "Last Updated by"
+msgstr "Última actualización"
+
+#. module: website_blog_perol
+#: model:ir.model.fields,field_description:website_blog_perol.field_perol_blog_post__write_date
+msgid "Last Updated on"
+msgstr "Última actualización"
+
+#. module: website_blog_perol
+#: model:ir.model,name:website_blog_perol.model_perol
+#: model:ir.model.fields,field_description:website_blog_perol.field_blog_post__perol_id
+#: model:ir.model.fields,field_description:website_blog_perol.field_perol_blog_post__perol_id
+msgid "Perol"
+msgstr ""
+
+#. module: website_blog_perol
+#: model:ir.model,name:website_blog_perol.model_perol_blog_post
+msgid "Perol blog post"
+msgstr "Entrada en el blog de Perol"
+
+#. module: website_blog_perol
+#: model:ir.model.fields,field_description:website_blog_perol.field_perol__blog_post_id
+msgid "Post"
+msgstr "Entrada de blog"
+
+#. module: website_blog_perol
+#: model_terms:ir.ui.view,arch_db:website_blog_perol.blog_post_perol_main
+msgid "Steps"
+msgstr "Pasos"
+
+#. module: website_blog_perol
+#: model_terms:ir.ui.view,arch_db:website_blog_perol.blog_post_perol_main
+msgid "Tricks"
+msgstr "Trucos"
+
+#~ msgid "Check"
+#~ msgstr "Comprobar"
+
+#~ msgid "Create blog entry"
+#~ msgstr "Crear entrada de blog"
+
+#~ msgid "Done"
+#~ msgstr "Listo"
+
+#~ msgid "Entry blog wizard"
+#~ msgstr "Asistente de entrada en blog"
+
+#~ msgid "Is perol"
+#~ msgstr "Es perol"
+
+#~ msgid "State"
+#~ msgstr "Estado"
+
+#~ msgid "Website"
+#~ msgstr "Sitio web"
+
+#~ msgid "Wizard create blog entry"
+#~ msgstr "Asistente para crear entradas de blog"
+
+#~ msgid "blog for recipes"
+#~ msgstr "blog de recetas"

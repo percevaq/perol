@@ -113,6 +113,10 @@
                                 <label for="history" string="History"/>
                                 <field name="history"/>
                             </div>
+                            <div>
+                                <label for="tricks" string="Tricks"/>
+                                <field name="tricks"/>
+                            </div>
                         </page>
                     </notebook>
                 </sheet>

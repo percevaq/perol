@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 17.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-01 22:36+0000\n"
-"PO-Revision-Date: 2024-11-01 22:36+0000\n"
+"POT-Creation-Date: 2024-11-18 22:50+0000\n"
+"PO-Revision-Date: 2024-11-18 22:50+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -474,7 +474,6 @@ msgstr ""
 
 #. module: perol
 #: model:ir.model.fields,field_description:perol.field_perol__activity_exception_icon
-#: model:ir.model.fields,field_description:perol.field_product_template_allergen__avatar_128
 #: model:ir.model.fields,field_description:perol.field_product_template_allergen__icon_128
 msgid "Icon"
 msgstr ""
@@ -739,6 +738,11 @@ msgid "Next Activity Type"
 msgstr ""
 
 #. module: perol
+#: model:ir.model.fields,field_description:perol.field_uom_uom__no_show_quantity
+msgid "No show quantity"
+msgstr ""
+
+#. module: perol
 #: model:ir.model.fields.selection,name:perol.selection__perol__priority__0
 msgid "Normal"
 msgstr ""
@@ -922,6 +926,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:perol.field_perol_ingredient__product_id
 #: model:ir.ui.menu,name:perol.perol_product_template_food_view_menu
 msgid "Product"
+msgstr ""
+
+#. module: perol
+#: model:ir.model,name:perol.model_uom_uom
+msgid "Product Unit of Measure"
 msgstr ""
 
 #. module: perol
@@ -1154,6 +1163,12 @@ msgid "Tree"
 msgstr ""
 
 #. module: perol
+#: model:ir.model.fields,field_description:perol.field_perol__tricks
+#: model_terms:ir.ui.view,arch_db:perol.perol_view_form
+msgid "Tricks"
+msgstr ""
+
+#. module: perol
 #: model:ir.model.fields,field_description:perol.field_perol_step__step_type
 msgid "Type"
 msgstr ""
@@ -1233,6 +1248,11 @@ msgstr ""
 #: code:addons/perol/models/perol_category.py:0
 #, python-format
 msgid "You cannot create recursive categories."
+msgstr ""
+
+#. module: perol
+#: model:ir.model.fields,field_description:perol.field_product_template_allergen__avatar_128
+msgid "avatar 128"
 msgstr ""
 
 #. module: perol

@@ -139,6 +139,11 @@ class Perol(models.Model):
         string='History',
         translate=True,
     )
+    tricks = fields.Html(
+        string='Tricks',
+        translate=True,
+    )
+
     difficulty = fields.Selection(
         string='Difficulty',
         selection=[

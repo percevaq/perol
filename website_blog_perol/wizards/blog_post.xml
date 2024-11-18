@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="perol_blog_post_view_form" model="ir.ui.view">
+        <field name="model">perol.blog.post</field>
+        <field name="arch" type="xml">
+            <form string="Blog post">
+                <group name="primary_group">
+                    <group>
+                        <field name="blog_id" required="True"/>
+                    </group>
+                </group>
+                <footer>
+                    <button class="oe_link" special="cancel" string="Cancel"/>
+                    <button name="button_create" class="oe_highlight" type="object" string="Create"/>
+                </footer>
+            </form>
+        </field>
+    </record>
+</odoo>
