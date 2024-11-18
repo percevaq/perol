@@ -27,33 +27,4 @@
             </t>
         </xpath>
     </template>
-    <template id="blog_post_short" inherit_id="website_blog.blog_post_short">
-<!--        <xpath expr="//div[@id='o_wblog_blog_top_droppable']//div[@t-field='blog.content']"-->
-<!--               position="after">-->
-<!--<xpath expr="//div[@name='address_not_same_as_shipping']//span[@t-field='o.partner_id.vat']/.." position="after">-->
-<!--            <h1>HOLA HOLA</h1>-->
-<!--        </xpath>-->
-    </template>
-
-<!--    t-field="blog.content"-->
-
-<!--        <div t-field="blog_post.content" position="before">-->
-
-<!--    <template id="blog_post_short" inherit_id="website_blog.blog_post_short">-->
-<!--        <t t-if="blog" position="inside">-->
-<!--            <t t-set="perol" t-value="blog.perol_id"/>-->
-<!--            <row>-->
-<!--                <span t-field="perol.description"/>-->
-<!--            </row>-->
-<!--        </t>-->
-<!--        &lt;!&ndash;        <div t-field="blog.content" position="attributes">&ndash;&gt;-->
-<!--        &lt;!&ndash;            <t t-set="perol" t-value="blog.perol_id"/>&ndash;&gt;-->
-<!--        &lt;!&ndash;            <t t-if="not perol_id">&ndash;&gt;-->
-<!--        &lt;!&ndash;                <attribute name="t-field">blog.content</attribute>&ndash;&gt;-->
-<!--        &lt;!&ndash;            </t>&ndash;&gt;-->
-<!--        &lt;!&ndash;            <t t-if="perol_id">&ndash;&gt;-->
-<!--        &lt;!&ndash;                <attribute name="t-field">blog.perol_id.description</attribute>&ndash;&gt;-->
-<!--        &lt;!&ndash;            </t>&ndash;&gt;-->
-<!--        &lt;!&ndash;        </div>&ndash;&gt;-->
-<!--    </template>-->
 </odoo>
